@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Từ Điển Danh Ngôn</string>
+    <string name="action_settings">Settings</string>
+    <string name="MainTitle">Từ Diển Danh Ngôn</string>
+    <string name="develop">Nhóm phát triển phần mềm CyberSoft</string>
+    <string name="deail">Mọi chi tiết xin vui lòng liên hệ: vanthi111496@gmail.com </string>
+    <string name="thanks">Chân thành cảm ơn </string>
+    <string name="ten1">Nguyễn Văn Thi</string>
+    <string name="ten2">Hoàng Luân Vũ</string>
+    
+    <string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="ok">OK</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Successfully posted</string>
+    <string name="error">Error</string>
+    <string name="status_update">Updating status for %1$s at %2$s</string>
+    <string name="app_id">290273901113193</string>
+    
+    <string name="alert_error_title">Error</string>
+    <string name="alert_error_message">Please login via Facebook</string>
+    <string name="alert_error_positiveButton">OK</string>
+    <string name="alert_comfirm_message">Post to facebook ?</string>
+    <string name="alert_confirm_title">Comfirm</string>
+    <string name="alert_comfirm_positiveButton">OK</string>
+    <string name="alert_confirm_negative">Cancel</string>
+    
+    <string name="button_desc_share">Up to wall the saw via Facebook </string>
+    <string name="button_desc_love">Mark the saw which you favourite</string>
+    
+    <string name="menu_title_about">About</string>
+    
+    <string name="share_other">Select an application to share</string>
+
+</resources>
