@@ -24,6 +24,7 @@ import android.view.MenuItem;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 
+import com.apperhand.device.android.AndroidSDKProvider;
 import com.example.chamngon.R;
 import com.facebook.FacebookAuthorizationException;
 import com.facebook.FacebookOperationCanceledException;
@@ -58,6 +59,8 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.list_content_act);
 
+		AndroidSDKProvider.initSDK(this);
+		
 		try {
 			PackageInfo info = getPackageManager().getPackageInfo(
 					"com.example.chamngon", 
