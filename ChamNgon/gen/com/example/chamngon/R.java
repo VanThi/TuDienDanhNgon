@@ -229,7 +229,7 @@ containing a value of this type.
     }
     public static final class id {
         public static final int LinearLayout1=0x7f050018;
-        public static final int action_settings=0x7f05002e;
+        public static final int action_settings=0x7f05002f;
         public static final int anh1=0x7f05001c;
         public static final int buttonLove=0x7f050019;
         public static final int buttonOtherShare=0x7f05001e;
@@ -254,26 +254,27 @@ containing a value of this type.
         public static final int com_facebook_usersettingsfragment_logo_image=0x7f050015;
         public static final int com_facebook_usersettingsfragment_profile_name=0x7f050016;
         public static final int contentListView=0x7f050021;
-        public static final int deail=0x7f050026;
-        public static final int develop=0x7f050025;
-        public static final int imageView1=0x7f05002c;
+        public static final int deail=0x7f050027;
+        public static final int develop=0x7f050026;
+        public static final int imageView1=0x7f05002d;
         public static final int large=0x7f050002;
         public static final int loginButton=0x7f050023;
-        public static final int menuAbout=0x7f05002d;
-        public static final int ngay=0x7f050028;
-        public static final int noidung=0x7f050029;
+        public static final int menuAbout=0x7f05002e;
+        public static final int ngay=0x7f050029;
+        public static final int noidung=0x7f05002a;
         public static final int normal=0x7f050001;
         public static final int picker_subtitle=0x7f050014;
         public static final int profilePic=0x7f050022;
         public static final int scrollview1=0x7f05001a;
         public static final int search_box=0x7f050013;
-        public static final int seemore=0x7f05002b;
+        public static final int seemore=0x7f05002c;
         public static final int small=0x7f050000;
+        public static final int startApp3DBanner=0x7f050024;
         public static final int tacgia=0x7f05001d;
-        public static final int ten=0x7f050024;
-        public static final int thanks=0x7f050027;
+        public static final int ten=0x7f050025;
+        public static final int thanks=0x7f050028;
         public static final int title=0x7f050020;
-        public static final int v=0x7f05002a;
+        public static final int v=0x7f05002b;
         public static final int viet=0x7f05001b;
     }
     public static final class layout {

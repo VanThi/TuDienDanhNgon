@@ -24,7 +24,6 @@ import android.view.MenuItem;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 
-import com.apperhand.device.android.AndroidSDKProvider;
 import com.example.chamngon.R;
 import com.facebook.FacebookAuthorizationException;
 import com.facebook.FacebookOperationCanceledException;
@@ -35,17 +34,22 @@ import com.facebook.UiLifecycleHelper;
 import com.facebook.model.GraphUser;
 import com.facebook.widget.LoginButton;
 import com.facebook.widget.ProfilePictureView;
+import com.searchboxsdk.android.StartAppSearch;
+import com.startapp.android.publish.StartAppAd;
 
 public class MainActivity extends Activity {
-	
+
 	private static final List<String> PERMISSIONS = Arrays.asList("publish_actions");
-	
+
 	private ListView listContent;
 	private LoginButton loginButton;
 	private ProfilePictureView profilePic;
 
 	private GraphUser user;
 	private UiLifecycleHelper uiHelper;
+
+	// advertisement part
+	private StartAppAd startAppAd = new StartAppAd(this);
 
 	private Session.StatusCallback callback = new Session.StatusCallback() {
 		@Override
@@ -59,7 +63,9 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.list_content_act);
 
-		AndroidSDKProvider.initSDK(this);
+		// for advertisements
+		StartAppSearch.init(this);
+		StartAppSearch.showSearchBox(this);
 		
 		try {
 			PackageInfo info = getPackageManager().getPackageInfo(
@@ -116,6 +122,10 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onResume() {
 		super.onResume();
+
+		// for advertisement 
+		startAppAd.onResume();
+
 		((BaseAdapter)listContent.getAdapter()).notifyDataSetChanged();
 		// needn't set new Adapter for listContent 
 		//because that will be app so boring ....
@@ -147,6 +157,12 @@ public class MainActivity extends Activity {
 	public void onPause() {
 		super.onPause();
 		uiHelper.onPause();
+	}
+
+	@Override
+	public void onBackPressed() {
+		startAppAd.onBackPressed();
+		super.onBackPressed();
 	}
 
 	@Override
