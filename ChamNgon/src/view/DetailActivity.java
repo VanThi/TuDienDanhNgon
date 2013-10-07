@@ -19,7 +19,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.chamngon.R;
+import cyber.app.chamngon.R;
 import com.facebook.FacebookRequestError;
 import com.facebook.Request;
 import com.facebook.Response;

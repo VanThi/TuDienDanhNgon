@@ -22,7 +22,7 @@ import android.preference.PreferenceManager;
 import android.widget.RemoteViews;
 import android.widget.RemoteViews.RemoteView;
 
-import com.example.chamngon.R;
+import cyber.app.chamngon.R;
 
 public class MyWidgetProvider extends AppWidgetProvider{
 

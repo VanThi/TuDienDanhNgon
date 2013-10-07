@@ -56,7 +56,7 @@ public class ContentListAdapter extends ArrayAdapter<String>{
 	@Override
 	public View getView(final int position, View convertView, ViewGroup parent) {
 		convertView = inflater.inflate(mViewResId,null);
-		TextView ten= (TextView) convertView.findViewById(com.example.chamngon.R.id.ten);
+		TextView ten= (TextView) convertView.findViewById(cyber.app.chamngon.R.id.ten);
 		/*tf=Typeface.createFromAsset(getContext().getAssets(),
                 "VNICLOIS.PFM");
 		ten.setTypeface(tf);*/
