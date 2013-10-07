@@ -16,7 +16,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class SQLiteHelper extends SQLiteOpenHelper{
 	
-	private static final String DATABASE_PATH = "/data/data/com.example.chamngon/databases/";
+	private static final String DATABASE_PATH = "/data/data/cyber.app.chamngon/databases/";
 	private static final String DATABASE_NAME = "chamngon.sqlite";
 	private static final int DATABASE_VERSION = 1;
 	
