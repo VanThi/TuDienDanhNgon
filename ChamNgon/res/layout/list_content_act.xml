@@ -48,4 +48,9 @@
             android:layout_height="wrap_content" />
     </LinearLayout>
 
+    <com.startapp.android.publish.banner.banner3d.Banner3D
+        android:id="@+id/startApp3DBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>
