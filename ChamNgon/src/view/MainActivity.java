@@ -24,7 +24,7 @@ import android.view.MenuItem;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 
-import com.example.chamngon.R;
+import cyber.app.chamngon.R;
 import com.facebook.FacebookAuthorizationException;
 import com.facebook.FacebookOperationCanceledException;
 import com.facebook.Session;

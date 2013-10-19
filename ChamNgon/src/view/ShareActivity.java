@@ -1,6 +1,6 @@
 package view;
 
-import com.example.chamngon.R;
+import cyber.app.chamngon.R;
 
 import android.app.Activity;
 import android.content.Intent;

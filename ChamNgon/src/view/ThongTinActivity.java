@@ -3,7 +3,7 @@ package view;
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.example.chamngon.R;
+import cyber.app.chamngon.R;
 
 public class ThongTinActivity extends Activity {
 	
